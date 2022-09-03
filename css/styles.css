@@ -45,6 +45,12 @@ body {
 .auth-link {
   color: var(--primary-text-color);
   text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .auth-link:hover,
 .auth-link:focus {
@@ -70,6 +76,7 @@ body {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
   border-radius: 4px;
+  cursor: pointer;
   border: none;
   font-family: "Roboto";
   font-style: normal;
@@ -172,7 +179,7 @@ body {
   list-style: none;
 }
 .contacts-addres {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--primary-background-color);
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
@@ -198,7 +205,7 @@ body {
 .contacts-addres:focus,
 .contacts-mail:focus,
 .contacts-tel:focus {
-  color: var(--primary-background-color);
+  color: var(--accent-color);
 }
 /* Portfolio */
 
