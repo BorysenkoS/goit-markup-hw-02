@@ -32,6 +32,9 @@ body {
 .link:focus {
   color: var(--accent-color);
 }
+.link.current {
+  color: var(--accent-color);
+}
 
 .link {
   color: var(--primary-title-color);
